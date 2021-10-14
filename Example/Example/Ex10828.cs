@@ -3,6 +3,8 @@ using System.Collections;
 
 namespace Example
 {
+    // 스택 자료구조
+
     class MyStack
     {
         private int[] stackArray;
@@ -63,44 +65,44 @@ namespace Example
         }
     }
 
-    class Program
+    class Ex10828
     {
-        static void Main()
-        {
-            MyStack myStack = new MyStack();
+        //static void Main()
+        //{
+        //    MyStack myStack = new MyStack();
 
-            int inputCount;
-            string input;
-            string[] inputText;
-            char space = ' ';
+        //    int inputCount;
+        //    string input;
+        //    string[] inputText;
+        //    char space = ' ';
 
-            inputCount = Int32.Parse(Console.ReadLine());
+        //    inputCount = Int32.Parse(Console.ReadLine());
 
-            for(int i = inputCount; i > 0; i--)
-            {
-                input = Console.ReadLine();
-                inputText = input.Split(space);
+        //    for(int i = inputCount; i > 0; i--)
+        //    {
+        //        input = Console.ReadLine();
+        //        inputText = input.Split(space);
 
-                switch (inputText[0])
-                {
-                    case "push":
-                        myStack.Push(Int32.Parse(inputText[1]));
-                        break;
-                    case "pop":
-                        myStack.Pop();
-                        break;
-                    case "size":
-                        myStack.Size();
-                        break;
-                    case "empty":
-                        myStack.Empty();
-                        break;
-                    case "top":
-                        myStack.Top();
-                        break;
-                }
-            }
-        }
+        //        switch (inputText[0])
+        //        {
+        //            case "push":
+        //                myStack.Push(Int32.Parse(inputText[1]));
+        //                break;
+        //            case "pop":
+        //                myStack.Pop();
+        //                break;
+        //            case "size":
+        //                myStack.Size();
+        //                break;
+        //            case "empty":
+        //                myStack.Empty();
+        //                break;
+        //            case "top":
+        //                myStack.Top();
+        //                break;
+        //        }
+        //    }
+        //}
 
     }
 }
