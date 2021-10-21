@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Example
 {
-    // 제로
+    // 10773 번 예제 제로
 
     class Book
     {
@@ -45,29 +45,29 @@ namespace Example
 
     class Ex10773
     {
-        static void Main()
-        {
-            int orderCount = 0;
-            orderCount = Int32.Parse(Console.ReadLine());
+        //static void Main()
+        //{
+        //    int orderCount = 0;
+        //    orderCount = Int32.Parse(Console.ReadLine());
 
-            Book myBook = new Book(orderCount);
-            int order;
+        //    Book myBook = new Book(orderCount);
+        //    int order;
 
-            for (int i = orderCount; i > 0; i--)
-            {
-                order = Int32.Parse(Console.ReadLine());
+        //    for (int i = orderCount; i > 0; i--)
+        //    {
+        //        order = Int32.Parse(Console.ReadLine());
 
-                if (order == 0)
-                {
-                    myBook.Zero();
-                }
-                else
-                {
-                    myBook.AddNum(order);
-                }
-            }
+        //        if (order == 0)
+        //        {
+        //            myBook.Zero();
+        //        }
+        //        else
+        //        {
+        //            myBook.AddNum(order);
+        //        }
+        //    }
 
-            Console.WriteLine(myBook.Sum());
-        }
+        //    Console.WriteLine(myBook.Sum());
+        //}
     }
 }
