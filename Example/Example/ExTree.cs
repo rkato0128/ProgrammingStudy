@@ -4,6 +4,8 @@ using System.IO; // 파일과 데이터 스트림에 대한 읽기 및 쓰기를
 
 namespace Example
 {
+    // 디렉토리 탐색해 트리 자료구조로 생성하고 모든 하위 디렉토리 출력
+
     class DirTree
     {
         public DirTreeNode rootDirNode;
@@ -97,7 +99,6 @@ namespace Example
             //{
             //    Console.WriteLine("The process failed : {0}", e.ToString());
             //}
-
         }
     }
 }

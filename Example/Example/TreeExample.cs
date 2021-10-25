@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Example
 {
+    // 트리 자료구조 학습
+
     class Tree<T>
     {
         public TreeNode<T> rootNode;
@@ -80,20 +82,20 @@ namespace Example
 
     class TreeExample
     {
-        //static void Main()
-        //{
-        //    Goblin goblinMaster = new Goblin("고블린 주인", 100, 10);
-        //    SuperGoblin goldGoblin = new SuperGoblin("황금 고블린", 500, 300);
-        //    SuperGoblin sliverGoblin = new SuperGoblin("은 고블린", 200, 200);
-        //    SuperGoblin copperGoblin = new SuperGoblin("동 고블린", 150, 100);
+        static void Main()
+        {
+            Goblin goblinMaster = new Goblin("고블린 주인", 100, 10);
+            SuperGoblin goldGoblin = new SuperGoblin("황금 고블린", 500, 300);
+            SuperGoblin sliverGoblin = new SuperGoblin("은 고블린", 200, 200);
+            SuperGoblin copperGoblin = new SuperGoblin("동 고블린", 150, 100);
 
-        //    Tree<Monster> monsterTree = new Tree<Monster>(goblinMaster);
+            Tree<Monster> monsterTree = new Tree<Monster>(goblinMaster);
 
-        //    monsterTree.rootNode.AddNode(goldGoblin);
-        //    monsterTree.rootNode.AddNode(sliverGoblin);
-        //    monsterTree.rootNode.AddNode(copperGoblin);
+            monsterTree.rootNode.AddNode(goldGoblin);
+            monsterTree.rootNode.AddNode(sliverGoblin);
+            monsterTree.rootNode.AddNode(copperGoblin);
 
-        //    monsterTree.rootNode.SearchChild();
-        //}
+            monsterTree.rootNode.SearchChild();
+        }
     }
 }

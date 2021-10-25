@@ -5,4 +5,22 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Ex10773.cs" />
+    <Compile Remove="Ex10828.cs" />
+    <Compile Remove="Ex2504.cs" />
+    <Compile Remove="ExTree.cs" />
+    <Compile Remove="GraphExample.cs" />
+    <Compile Remove="TreeExample.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Ex10773.cs" />
+    <None Include="Ex10828.cs" />
+    <None Include="Ex2504.cs" />
+    <None Include="ExTree.cs" />
+    <None Include="GraphExample.cs" />
+    <None Include="TreeExample.cs" />
+  </ItemGroup>
+
 </Project>
