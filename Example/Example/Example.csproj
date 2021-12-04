@@ -9,8 +9,10 @@
     <Compile Remove="Ex10773.cs" />
     <Compile Remove="Ex10828.cs" />
     <Compile Remove="Ex2504.cs" />
+    <Compile Remove="ExDictionary.cs" />
     <Compile Remove="ExTree.cs" />
     <Compile Remove="GraphExample.cs" />
+    <Compile Remove="ThreadExample.cs" />
     <Compile Remove="TreeExample.cs" />
     <Compile Remove="ExGraphSearch.cs" />
   </ItemGroup>
@@ -19,8 +21,10 @@
     <None Include="Ex10773.cs" />
     <None Include="Ex10828.cs" />
     <None Include="Ex2504.cs" />
+    <None Include="ExDictionary.cs" />
     <None Include="ExTree.cs" />
     <None Include="GraphExample.cs" />
+    <None Include="ThreadExample.cs" />
     <None Include="TreeExample.cs" />
     <None Include="ExGraphSearch.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
   </ItemGroup>
