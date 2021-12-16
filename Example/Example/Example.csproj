@@ -12,6 +12,7 @@
     <Compile Remove="ExDictionary.cs" />
     <Compile Remove="ExTree.cs" />
     <Compile Remove="GraphExample.cs" />
+    <Compile Remove="SearchAlgorithmExample.cs" />
     <Compile Remove="ThreadExample.cs" />
     <Compile Remove="TreeExample.cs" />
     <Compile Remove="ExGraphSearch.cs" />
@@ -24,6 +25,7 @@
     <None Include="ExDictionary.cs" />
     <None Include="ExTree.cs" />
     <None Include="GraphExample.cs" />
+    <None Include="SearchAlgorithmExample.cs" />
     <None Include="ThreadExample.cs" />
     <None Include="TreeExample.cs" />
     <None Include="ExGraphSearch.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
